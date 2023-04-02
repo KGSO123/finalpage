@@ -1,0 +1,104 @@
+
+body{
+	background-color:#628DB8;
+	margin:0px;
+}
+ul{
+	margin-top:0;
+}
+#title{
+	margin-top:0;
+}
+
+
+.title_page{
+	background-color:#5C97DA;
+	margin-bottom:0;
+	overflow:auto;
+}
+.top{
+	background-color:black;
+	position:sticky;
+	top:0;
+	height:30px;
+	text-align:center;
+	overflow:auto;
+}
+.navbar{
+	list-style-type:none;
+	margin-top:0;
+	text-align:center;
+	font-size:15px;
+}
+.navlist{
+	display:inline-block;
+	padding-top:4px;
+	margin-left:5px;
+	margin-right:5px;
+	
+}
+.navlink{
+	text-decoration:none;
+	color:white;
+	font-family: 'Brush Script MT', cursive;
+}
+.navlink:hover{
+	background-color:#FFCF12;
+}
+.box1{grid area:one}
+.box2{grid area:two}
+.box3{grid area:three}
+.box4{grid area:four}
+.box5{grid area:five}
+
+.grid-container1{
+	display:grid;
+	grid-template-areas:
+	"one two";
+	grid-gap:10px;
+	padding:10px;
+
+}
+
+.grid-container1 img{
+	border:15px solid gray;
+	height:400px;
+
+}
+.grid-container2{
+	display:grid;
+	grid-template-areas:
+	"three four five ";
+	grid-gap:10px;
+	padding:10px;
+
+}
+.grid-container1 div{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding:20px;
+	font-size:30px;
+	text-align:center;
+}
+.grid-container2 div{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding:20px;
+	font-size:30px;
+	text-align:center;
+}
+	
+
+h1{
+	text-align:center;
+	font-family:Cascadia Code;
+}
+h3{
+	text-align:center;
+	margin-bottom:0;
+	font-family:Cascadia Code;
+}
+.description{
+	text-align:center;
+	margin-bottom:0;
+	font-size:4px;
+	font-family:Cascadia Code;
+}

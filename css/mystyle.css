@@ -1,0 +1,116 @@
+body{
+	background-color:#628DB8;
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+}
+ul{
+	margin-top:0;
+}
+#title{
+	margin-top:0;
+}
+
+
+.title_page{
+	background-color:#5C97DA;
+	margin-bottom:0;
+
+}
+.top{
+	background-color:black;
+	position:sticky;
+	top:0;
+
+	height:30px;
+	text-align:center;
+}
+.navbar{
+	list-style-type:none;
+	margin-top:0;
+	text-align:center;
+	font-size:15px;
+}
+.navlist{
+	display:inline-block;
+	padding-top:4px;
+	margin-left:5px;
+	margin-right:5px;
+	
+}
+.navlink{
+	text-decoration:none;
+	color:white;
+	font-family: 'Brush Script MT', cursive;
+}
+.navlink:hover{
+	background-color:#FFCF12;
+}
+
+h1, h2, h3, p{
+	color:black
+}
+h1 {
+    text-align: center;
+	margin-bottom:0;
+    font-family: Cascadia Code;
+}
+.headers {
+    font-family: 'Book Antiqua';
+	text-align:center;
+    background-color: #FAD231;
+    box-shadow: 5px 2px 8px #B2972C;
+	width:150px;
+	margin-bottom:0;
+}
+h3 {
+    text-align: center;
+	margin-bottom:0;
+	margin-top:5;
+    font-family: Cascadia Code;
+}
+hr {
+    height: 10px;
+    width: 24em;
+    border: none;
+    border-radius:5px;
+    box-shadow:5px 2px 8px #080A40;
+    background-color:#2C30A5;
+}
+
+.skill1, .skill2{
+	height:300px;
+	width:200px;
+	margin-left:50px;
+	margin-right:50px;
+	border:5px solid #FFE166;
+	
+}
+
+.hobby1, .hobby3{
+	height:300px;
+	width:200px;
+	margin-left:50px;
+	margin-right:50px;
+	border:5px solid #FFE166;
+}
+
+.hobby2{
+	height:300px;
+	width:400px;
+	margin-left:50px;
+	margin-right:50px;
+	border:4px solid #FFE166;
+}
+
+.description{
+	text-align:center;
+	  font-family: Garamond, serif;
+	  color:black;
+}
+
+
+
+
+
+

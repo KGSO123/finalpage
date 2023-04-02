@@ -1,0 +1,177 @@
+body{
+	background-color:#628DB8;
+	margin:0;
+}
+.sticky_choices{
+	display:flex;
+	text-decoration:none;
+	justify-content:center;
+}
+
+.back{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#628DB8;
+	text-align:center;
+	color:white;
+	font-size:1.3vw;
+	bottom:0;
+	height:5.5vh;
+	width:4vw;
+	position:absolute;
+	z-index:5;
+	margin-bottom:3vh;
+	margin-right:94vw;
+	border-radius:50px;
+}
+.back_img{
+	padding-top:0.5vh;
+	width:3vw;
+	height:4.4vh;
+}
+.description{
+	background-color:white;
+	text-align:center;
+	height:150px;
+	font-family:sans-serif;
+	font-size:12px;
+	border-radius:15px 15px 15px 15px;
+	
+}
+.split{
+	display:flex;
+	justify-content:center;
+}
+#container1{
+	height:100vh;
+	width:100vw;
+	background-color:#262626;
+	float:left;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-right:1vh solid gray;
+	position:relative;
+	background-repeat:no-repeat;
+	background-size:180vh;
+	transition:1s;
+}
+#container2{
+	height:100vh;
+	width:100vw;
+	background-color:#262626;
+	float:left;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-left:1vh solid gray;
+	position:relative;
+	background-repeat:no-repeat;
+	background-size:180vh;
+}
+.movies_img{
+	width:25vw;
+	height:40vh;
+	z-index:3;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.tv_img{
+	width:25vw;
+	height:40vh;
+	z-index:3;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+#icon_movies{
+	position:relative;
+	border-radius:4vh;
+	position:absolute;
+	height:90vh;
+	width:45vw;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	z-index:-1;
+	color:white;
+}
+#icon_tv{
+	border-radius:4vh;
+	position:absolute;
+	height:90vh;
+	width:45vw;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	z-index:-1;
+
+}
+
+#container1:hover{
+	background-image:url("../images/movies and tv/choices/movies_bg.jpg");
+}
+
+#container1:hover>#icon_movies{
+	background-color:rgba(0,0,0,0.7);
+	z-index:2;
+	transition:1s;
+}
+#container2:hover{
+	background-image:url("../images/movies and tv/choices/tv_bg.png");
+
+}
+#container2:hover > #icon_tv{
+	background-color:rgba(0,0,0,0.7);
+	z-index:2;
+	transition:1s;
+	
+}
+#container1:hover > #title{
+	transition:1s;
+	opacity:1;
+}
+#container1:hover #description{
+	transition:1s;
+	opacity:1;
+}
+#container2:hover > #title{
+	transition:1s;
+	opacity:1;
+}
+#container2:hover #description{
+	transition:1s;
+	opacity:1;
+}
+#title{
+	background:none;
+	text-align:center;
+	z-index:100;
+	font-size:3vw;
+	z-index:3;
+	color:white;
+	margin-bottom:65vh;
+	padding:0;
+	font-family:Cascadia Code;
+	opacity:0;
+}
+#description{
+	background:none;
+	text-align:center;
+	z-index:100;
+	font-size:1.6vw;
+	z-index:3;
+	color:white;
+	margin-top:70vh;
+	padding:0;
+	font-family:Helvetica;
+	opacity:0;
+
+}
+
+
+
